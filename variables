@@ -1,0 +1,20 @@
+# Define una variable de cada tipo primitivo
+cadena = "Hola, Mundo!"
+entero = 10
+flotante = 20.5
+booleano = True
+
+# Concatena a la cadena las otras variables aplicando la conversión correcta
+resultado = cadena + " " + str(entero) + " " + str(flotante) + " " + str(booleano)
+
+# Límites de los enteros y los flotantes en Python
+# En Python, el límite de los enteros es determinado por la memoria disponible. 
+# Los flotantes están limitados por la precisión del sistema de punto flotante.
+# Puedes encontrar más detalles en la documentación oficial de Python.
+
+# Fórmula de la suma de los primeros n números pares
+n = entero  # tomando n como la variable de tipo entero
+suma_pares = n * (n + 1)
+# Imprimir los resultados
+print(resultado)
+print("La suma de los primeros", n, "números pares es:", suma_pares)
